@@ -1,21 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package task1;
 
-import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader;
-
-/**
- *
- * @author Amer
- */
 public class Stack<E>
 {
 
     final int DEFAULT_CAPACITY = 255;
-    int curCapacity = DEFAULT_CAPACITY; //Current Array capacity
     E items[];
     int topItem = -1; //its empty
 
